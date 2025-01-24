@@ -1,40 +1,22 @@
-# Standards for the IBM Z Ecosystem team 
+# IBM Z Washington Systems Center 
+### Customer Resources and Assets
 
-This repository will be used to documentent standards as well as the environments for the IBM Z Ecosystem team.   The goal of this repository is to provide a single place for members to understand the standards for the systems, the processes to access the systems, the processes used for the systems.  This repository will link to others where appropriate.  
+Welcome to the IBM Washington Systems Center site.  This site will provide documentation, materials, and resources for the greater IBM Z and mainframe community.   The purpose of this site is to increase exposure to the intellectual capital in the IBM Washington Systems Center.
 
-This repository will be published with gitpages to allow easy access and sharing and if appropriate can be added to w3 search to make it more findable.
+This site is intended to be continuously updated through collaboration in git.   
 
-If there are documenents that can not be visible to all of IBM we will create folders where markdown will still be used but those pages will not be published.  IF there is a need for tightly controled documenation, private repositories will be created.  
+The focus is to provide education for IBM customers, business partners, and the general IT community. This repository contains presentations, labs, and demonstrations for the IBM Z portfolio. 
+
+Upcoming WSC events can be found here: [Calender](https://ibm-zcouncil.com/events-calendar/?event_category_id=wsc#espresso_calendar)
+
+## Disclaimer 
+
+Materials on this site are the intellectual property of IBM Washington Systems Center. 
 
 
-# Publishing Documentation Updates
+## Contributions
 
-This section describes the tools and steps need to update this repository's documentation.
+If you are an IBM Washington Systems Center employee and would like to contribute to the site, you may fill out this form: [contribute](https://wkf.ms/40u07Iu). If you would like to update an existing asset, fill out this form: [update](https://wkf.ms/4hwmYtB)
 
-## Getting Started
 
-This repository uses `mkdocs` to generate a static website from GitHub flavored markdown.  `mkdocs` can be installed by following the installation directions provided on the `mkdocs` website (https://www.mkdocs.org/user-guide/installation/).
-
-In addition to `mkdocs`, the published static site uses a theme called [material](https://github.com/squidfunk/mkdocs-material).  The theme can be installed using the following command:
-
-```bash
-pip install mkdocs-material
-```
-
-## Local Development
-
-When creating or updating the content of the site, `mkdocs` can be used to serve the site locally.  The command below will build and serve the site from a local directory.
-
-```bash
-mkdocs serve
-```
-
-`mkdocs` will automatically rebuild the site as changes are made.
-
-## Deploying Updates
-
-When updates are ready for publication, the following command is used to generate the site and push the results to the `gh-pages` branch for hosting.
-
-```bash
-mkdocs gh-deploy
-```
+See a problem and want to start a discussion, open an [issue.](https://github.ibm.com/IBM-Z-Ecosystem/Z-Standards/issues)
