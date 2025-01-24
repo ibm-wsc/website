@@ -1,0 +1,65 @@
+site_name: "Z Standards | IBM Ecosystem"
+nav:
+  - Overview: index.md
+  - Education:
+    - Git Introduction: education/git-Intro.md
+    - Git Commands: education/git-commands.md 
+    - Storage Options: education/git-vs-box-vs-onedrive.md
+    - Resources: education/resources.md
+  - Standards:
+    - Overview of Standards: standards/Overview.md
+    - Use Case Types: standards/UseCasetypes-standards.md
+    - Naming: standards/naming-standards.md
+    - Z Base: standards/StandardzOSImage.md
+    - A La Carte: standards/a-la-carte.md
+    - Catalog: standards/catalog-standards.md
+    - SMS: standards/sms-standards.md
+    - SMPE: standards/smpe-standards.md
+    - 3 Character prefix: standards/3-char-prefix.md
+  - Current Systems: 
+    - WSC: current-systems/wsc/wsc-zos.md
+    - CPO: current-systems/cpo/cpo-zos.md
+  - Current Processes: 
+    - SMP/E Naming: current-process/smpe-naming.md
+    - SMP/E Zones: current-process/smpe-zones.md
+  - FAQ: faq.md
+   
+
+# Project Information
+site_url: 'https://github.ibm.com/IBM-Z-Ecosystem/Z-Standards'
+site_description: IBM Z Ecosystem Standards
+site_author: IBM Z Ecosystem
+
+# Repository Information
+repo_url: 'https://github.ibm.com/IBM-Z-Ecosystem/Z-Standards'
+docs_dir: 'docs'
+site_dir: 'site'
+remote_branch: 'gh-pages'
+remote_name: 'origin'
+theme:
+  name: material
+  font:
+    text: IBM Plex Sans
+    code: IBM Plex Mono
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: black
+      accent: blue
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: blue
+      accent: blue
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode
+markdown_extensions:
+  - pymdownx.highlight
+  - pymdownx.superfences
+  - attr_list
+  - md_in_html
+extra_css:
+  - "stylesheets/extra_css.css"
