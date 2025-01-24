@@ -1,37 +1,37 @@
-site_name: "Z Standards | IBM Ecosystem"
+site_name: "IBM Washington Systems Center"
 nav:
   - Overview: index.md
-  - Education:
-    - Git Introduction: education/git-Intro.md
-    - Git Commands: education/git-commands.md 
-    - Storage Options: education/git-vs-box-vs-onedrive.md
-    - Resources: education/resources.md
-  - Standards:
-    - Overview of Standards: standards/Overview.md
-    - Use Case Types: standards/UseCasetypes-standards.md
-    - Naming: standards/naming-standards.md
-    - Z Base: standards/StandardzOSImage.md
-    - A La Carte: standards/a-la-carte.md
-    - Catalog: standards/catalog-standards.md
-    - SMS: standards/sms-standards.md
-    - SMPE: standards/smpe-standards.md
-    - 3 Character prefix: standards/3-char-prefix.md
-  - Current Systems: 
-    - WSC: current-systems/wsc/wsc-zos.md
-    - CPO: current-systems/cpo/cpo-zos.md
-  - Current Processes: 
-    - SMP/E Naming: current-process/smpe-naming.md
-    - SMP/E Zones: current-process/smpe-zones.md
-  - FAQ: faq.md
+  - AI and Analytics:
+    - AIOps: ai/aiops.md
+    - Analytics: ai/analytics.md
+    - Watson Code Assistant: ai/wca4z.md
+  - Capacity and Performance:
+    - Git Introduction: capacityperf/git-Intro.md
+    - Git Commands: capacityperf/git-commands.md 
+    - Storage Options: capacityperf/git-vs-box-vs-onedrive.md
+    - Resources: capacityperf/resources.md
+  - Hybrid Cloud:
+    - IBM AIOps: hybridcloud/hyperprotect.md
+    - Instana: hybridcloud/instana.md
+    - RedHat Ansible: hybridcloud/rhansible.md
+    - RedHat OpenShift: hybridcloud/rhopenshift.md
+  - LinuxONE: linuxONE.md
+  - z/OS, Software, Subsystems: 
+    - Communications Server: zossoftware/smpe-naming.md
+    - IBM Db2: zossoftware/smpe-zones.md
+    - IBM IMS: zossoftware/ibmims.md
+    - IBM MQ: zossoftware/smpe-zones.md
+    - IBM z/OS Connect: zossoftware/ibmzosconnect.md
+  - Hardware: faq.md
    
 
 # Project Information
-site_url: 'https://github.ibm.com/IBM-Z-Ecosystem/Z-Standards'
-site_description: IBM Z Ecosystem Standards
-site_author: IBM Z Ecosystem
+site_url: 'https://github.com/ibm-wsc/'
+site_description: IBM Washington Systems Center
+site_author: IBM Z WSC
 
 # Repository Information
-repo_url: 'https://github.ibm.com/IBM-Z-Ecosystem/Z-Standards'
+repo_url: 'https://github.com/ibm-wsc/'
 docs_dir: 'docs'
 site_dir: 'site'
 remote_branch: 'gh-pages'
@@ -44,22 +44,48 @@ theme:
   palette:
     - media: "(prefers-color-scheme: light)"
       scheme: default
-      primary: black
-      accent: blue
+      primary: custom
+      accent: custom
       toggle:
         icon: material/toggle-switch-off-outline
         name: Switch to dark mode
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
-      primary: blue
-      accent: blue
+      primary: custom
+      accent: custom
       toggle:
         icon: material/toggle-switch
         name: Switch to light mode
+features:
+- content.tabs.link
 markdown_extensions:
   - pymdownx.highlight
   - pymdownx.superfences
   - attr_list
   - md_in_html
+
+  # Python Markdown Extensions
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.details
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+
 extra_css:
-  - "stylesheets/extra_css.css"
+  - "stylesheets/extra.css"
+
+copyright: |
+  &copy; 2025 IBM
+
