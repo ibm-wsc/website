@@ -9,7 +9,7 @@ The focus is to provide education for IBM customers, business partners, and the 
 
 Upcoming WSC events can be found here: [Calender](https://ibm-zcouncil.com/events-calendar/?event_category_id=wsc#espresso_calendar)
 
-=== "IBM z/OS Software"
+<!-- === "IBM z/OS Software"
     
     | Product    | Assets |
     | -------- | ------- |
@@ -72,7 +72,7 @@ Upcoming WSC events can be found here: [Calender](https://ibm-zcouncil.com/event
     | Capacity Sizing Study |
     | Performance KPI Study | 
     | Capacity Planning Concepts and Tools Overiew Presentation | 
-    
+     -->
 
 ## Disclaimer 
 
