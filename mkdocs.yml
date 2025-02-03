@@ -11,18 +11,22 @@ nav:
     - Storage Options: capacityperf/git-vs-box-vs-onedrive.md
     - Resources: capacityperf/resources.md
   - Hybrid Cloud:
-    - IBM AIOps: hybridcloud/hyperprotect.md
+    - Hyper Protect: hybridcloud/hyperprotect.md
     - Instana: hybridcloud/instana.md
     - RedHat Ansible: hybridcloud/rhansible.md
     - RedHat OpenShift: hybridcloud/rhopenshift.md
+  - IBM WSC Education:
+    - IBM Z Explore: education/zxplore.md
+    - Mainframe Skills Depot: education/msd.md
   - LinuxONE: linuxONE.md
   - z/OS, Software, Subsystems: 
-    - Communications Server: zossoftware/smpe-naming.md
-    - IBM Db2: zossoftware/smpe-zones.md
+    - IBM CICS: zossoftware/ibmcics.md
+    - IBM Db2: zossoftware/ibmdb2.md
     - IBM IMS: zossoftware/ibmims.md
-    - IBM MQ: zossoftware/smpe-zones.md
+    - IBM MQ: zossoftware/ibmmq.md
+    - IBM z/OS: zossoftware/ibmzos.md
+    - IBM z/OS Communications Server: zossoftware/ibmcommserver.md
     - IBM z/OS Connect: zossoftware/ibmzosconnect.md
-  - Hardware: faq.md
    
 
 # Project Information
@@ -37,6 +41,8 @@ site_dir: 'site'
 remote_branch: 'gh-pages'
 remote_name: 'origin'
 theme:
+  logo: assets/ibm_logo.png
+  favicon: assets/ibm_logo.png
   name: material
   font:
     text: IBM Plex Sans
