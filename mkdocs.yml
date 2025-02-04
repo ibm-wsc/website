@@ -24,7 +24,8 @@ nav:
     - IBM z/OS: zossoftware/ibmzos.md
     - IBM z/OS Communications Server: zossoftware/ibmcommserver.md
     - IBM z/OS Connect: zossoftware/ibmzosconnect.md
-   
+    - Parallel Sysplex Health Check: zossoftware/healthcheck.md
+
 
 # Project Information
 site_url: 'https://github.com/ibm-wsc/'
