@@ -20,12 +20,12 @@ nav:
     - IBM CICS: zossoftware/ibmcics.md
     - IBM Db2: zossoftware/ibmdb2.md
     - IBM IMS: zossoftware/ibmims.md
-    - Health Check: zossoftware/healthcheck.md
     - IBM MQ: zossoftware/ibmmq.md
     - IBM z/OS: zossoftware/ibmzos.md
     - IBM z/OS Communications Server: zossoftware/ibmcommserver.md
     - IBM z/OS Connect: zossoftware/ibmzosconnect.md
-   
+    - Parallel Sysplex Health Check: zossoftware/healthcheck.md
+
 
 # Project Information
 site_url: 'https://github.com/ibm-wsc/'
