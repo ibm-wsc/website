@@ -43,8 +43,9 @@ System Health Checks are built on a proven methodology of data collection, analy
 
 | Standalone Offerings | Link |
 | -------- | ------- |
-| IBM CICS Standalone Health Check Guide | [Link](/assets/zhc_flyer.pdf)
-| IBM Db2 Standalone Health Check Guide | [Link](/assets/ZHC_kickoff.pdf) |
-| IBM IMS Standalone Health Check Guide | [Link](/assets/zhc_data_collection_guide.pdf) |
-| IBM MQ Standalone Health Check Guide | [Link](/assets/zhc_it_objectives.pdf) | 
-| IBM z/OS Standalone Health Check Guide | [Link](/assets/zhc_it_objectives.pdf) |
+| IBM CICS Standalone Health Check Guide | [Link] |
+| IBM Db2 Standalone Health Check Guide | [Link] |
+| IBM IMS Standalone Health Check Guide | [Link] |
+| IBM MQ Standalone Health Check Guide | [Link](../assets/MQ Health Check Data Collection Guide.pdf) | 
+| IBM WLM Standalone Health Check Guide | [Link] | 
+| IBM z/OS Standalone Health Check Guide | [Link] |

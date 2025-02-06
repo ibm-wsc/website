@@ -1,3 +1,5 @@
+# Capacity Planning and Performance Tools for Customers
+
 | Offering    | Link | About | Format |
 | -------- | ------- | ------- | ------- |
 | IBM Z Batch Network Analyzer | [Link](https://www.ibm.com/support/pages/node/6354321) | IBM Z Batch Network Analyzer (IBM zBNA) is a no charge, "as is", PC-based productivity tool designed to understand the batch window and estimate the CPU upgrade effect by performing "what if" analyses. Use IBM zBNA to evaluate the impact of new technology exploitation such as zEDC, DFSMS Encryption, zHyperLink, and DFSORT IBM Z Sort. IBM zBNA provides powerful, graphic demonstration of the z/OS batch window, which can be automatically captured in a report file using the Named Favorites feature. | Tooling |
