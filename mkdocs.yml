@@ -5,17 +5,17 @@ nav:
     - AIOps: ai/aiops.md
     - Analytics: ai/analytics.md
     - Watson Code Assistant: ai/wca4z.md
-  - Capacity and Performance:
-    - Tools: capacityperf/tools.md
+  - Capacity and Performance: capacityperf.md
   - Hybrid Cloud:
     - Hyper Protect: hybridcloud/hyperprotect.md
     - Instana: hybridcloud/instana.md
     - RedHat Ansible: hybridcloud/rhansible.md
     - RedHat OpenShift: hybridcloud/rhopenshift.md
+    - IBM z/OS Modernization: hybridcloud/zosmodernization.md
   - IBM WSC Education:
     - IBM Z Explore: education/zxplore.md
     - Mainframe Skills Depot: education/msd.md
-  - LinuxONE: linuxone/linuxONE.md
+  - LinuxONE: linuxONE.md
   - z/OS, Software, Subsystems: 
     - IBM CICS: zossoftware/ibmcics.md
     - IBM Db2: zossoftware/ibmdb2.md
@@ -24,7 +24,7 @@ nav:
     - IBM z/OS: zossoftware/ibmzos.md
     - IBM z/OS Communications Server: zossoftware/ibmcommserver.md
     - IBM z/OS Connect: zossoftware/ibmzosconnect.md
-    - Parallel Sysplex Health Check: zossoftware/healthcheck.md
+  - Parallel Sysplex Health Check: healthcheck.md
 
 
 # Project Information
@@ -92,4 +92,3 @@ extra_css:
 
 copyright: |
   &copy; 2025 IBM
-
