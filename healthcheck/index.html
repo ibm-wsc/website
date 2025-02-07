@@ -12,24 +12,26 @@
         <meta name="author" content="IBM Z WSC">
       
       
-        <link rel="canonical" href="https://github.com/ibm-wsc/linuxone/cpo/cpo-zos/">
+        <link rel="canonical" href="https://github.com/ibm-wsc/healthcheck/">
+      
+      
+        <link rel="prev" href="../zossoftware/ibmzosconnect/">
       
       
       
-      
-      <link rel="icon" href="../../../assets/ibm_logo.png">
+      <link rel="icon" href="../assets/ibm_logo.png">
       <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.5.46">
     
     
       
-        <title>Current CPO Environments - IBM Washington Systems Center</title>
+        <title>Parallel Sysplex Health Check - IBM Washington Systems Center</title>
       
     
     
-      <link rel="stylesheet" href="../../../assets/stylesheets/main.6f8fc17f.min.css">
+      <link rel="stylesheet" href="../assets/stylesheets/main.6f8fc17f.min.css">
       
         
-        <link rel="stylesheet" href="../../../assets/stylesheets/palette.06af60db.min.css">
+        <link rel="stylesheet" href="../assets/stylesheets/palette.06af60db.min.css">
       
       
 
@@ -48,9 +50,9 @@
       
     
     
-      <link rel="stylesheet" href="../../../stylesheets/extra.css">
+      <link rel="stylesheet" href="../stylesheets/extra.css">
     
-    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
@@ -76,7 +78,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#current-cpo-environments" class="md-skip">
+        <a href="#parallel-sysplex-health-check" class="md-skip">
           Skip to content
         </a>
       
@@ -92,9 +94,9 @@
 
 <header class="md-header md-header--shadow" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="../../.." title="IBM Washington Systems Center" class="md-header__button md-logo" aria-label="IBM Washington Systems Center" data-md-component="logo">
+    <a href=".." title="IBM Washington Systems Center" class="md-header__button md-logo" aria-label="IBM Washington Systems Center" data-md-component="logo">
       
-  <img src="../../../assets/ibm_logo.png" alt="logo">
+  <img src="../assets/ibm_logo.png" alt="logo">
 
     </a>
     <label class="md-header__button md-icon" for="__drawer">
@@ -111,7 +113,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Current CPO Environments
+              Parallel Sysplex Health Check
             
           </span>
         </div>
@@ -224,9 +226,9 @@
 
 <nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="../../.." title="IBM Washington Systems Center" class="md-nav__button md-logo" aria-label="IBM Washington Systems Center" data-md-component="logo">
+    <a href=".." title="IBM Washington Systems Center" class="md-nav__button md-logo" aria-label="IBM Washington Systems Center" data-md-component="logo">
       
-  <img src="../../../assets/ibm_logo.png" alt="logo">
+  <img src="../assets/ibm_logo.png" alt="logo">
 
     </a>
     IBM Washington Systems Center
@@ -253,7 +255,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../.." class="md-nav__link">
+      <a href=".." class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -308,7 +310,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../ai/aiops/" class="md-nav__link">
+      <a href="../ai/aiops/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -329,7 +331,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../ai/analytics/" class="md-nav__link">
+      <a href="../ai/analytics/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -350,7 +352,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../ai/wca4z/" class="md-nav__link">
+      <a href="../ai/wca4z/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -377,59 +379,16 @@
   
   
   
-    
-    
-    
-    
-    <li class="md-nav__item md-nav__item--nested">
-      
+    <li class="md-nav__item">
+      <a href="../capacityperf/" class="md-nav__link">
         
-        
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
-        
-          
-          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
-            
   
   <span class="md-ellipsis">
     Capacity and Performance
   </span>
   
 
-            <span class="md-nav__icon md-icon"></span>
-          </label>
-        
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_3">
-            <span class="md-nav__icon md-icon"></span>
-            Capacity and Performance
-          </label>
-          <ul class="md-nav__list" data-md-scrollfix>
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../../capacityperf/tools/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Tools
-  </span>
-  
-
       </a>
-    </li>
-  
-
-              
-            
-          </ul>
-        </nav>
-      
     </li>
   
 
@@ -476,7 +435,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../hybridcloud/hyperprotect/" class="md-nav__link">
+      <a href="../hybridcloud/hyperprotect/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -497,7 +456,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../hybridcloud/instana/" class="md-nav__link">
+      <a href="../hybridcloud/instana/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -518,7 +477,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../hybridcloud/rhansible/" class="md-nav__link">
+      <a href="../hybridcloud/rhansible/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -539,11 +498,32 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../hybridcloud/rhopenshift/" class="md-nav__link">
+      <a href="../hybridcloud/rhopenshift/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
     RedHat OpenShift
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../hybridcloud/zosmodernization/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    IBM z/OS Modernization
   </span>
   
 
@@ -602,7 +582,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../education/zxplore/" class="md-nav__link">
+      <a href="../education/zxplore/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -623,7 +603,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../education/msd/" class="md-nav__link">
+      <a href="../education/msd/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -651,7 +631,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../linuxONE/" class="md-nav__link">
+      <a href="../linuxONE/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -706,7 +686,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../zossoftware/ibmcics/" class="md-nav__link">
+      <a href="../zossoftware/ibmcics/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -727,7 +707,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../zossoftware/ibmdb2/" class="md-nav__link">
+      <a href="../zossoftware/ibmdb2/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -748,7 +728,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../zossoftware/ibmims/" class="md-nav__link">
+      <a href="../zossoftware/ibmims/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -769,7 +749,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../zossoftware/ibmmq/" class="md-nav__link">
+      <a href="../zossoftware/ibmmq/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -790,7 +770,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../zossoftware/ibmzos/" class="md-nav__link">
+      <a href="../zossoftware/ibmzos/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -811,7 +791,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../zossoftware/ibmcommserver/" class="md-nav__link">
+      <a href="../zossoftware/ibmcommserver/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -832,7 +812,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../zossoftware/ibmzosconnect/" class="md-nav__link">
+      <a href="../zossoftware/ibmzosconnect/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -848,6 +828,129 @@
             
           </ul>
         </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Parallel Sysplex Health Check
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    Parallel Sysplex Health Check
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#at-a-glance" class="md-nav__link">
+    <span class="md-ellipsis">
+      At A Glance
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#target-audience" class="md-nav__link">
+    <span class="md-ellipsis">
+      Target Audience
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#why-use-this-service" class="md-nav__link">
+    <span class="md-ellipsis">
+      Why Use This Service?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#benefits" class="md-nav__link">
+    <span class="md-ellipsis">
+      Benefits
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#service-provided" class="md-nav__link">
+    <span class="md-ellipsis">
+      Service Provided
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#deliverables" class="md-nav__link">
+    <span class="md-ellipsis">
+      Deliverables
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#resources" class="md-nav__link">
+    <span class="md-ellipsis">
+      Resources
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -880,50 +983,65 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#natvie-zos" class="md-nav__link">
+  <a href="#at-a-glance" class="md-nav__link">
     <span class="md-ellipsis">
-      Natvie z/OS
+      At A Glance
     </span>
   </a>
-  
-    <nav class="md-nav" aria-label="Natvie z/OS">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#system-name" class="md-nav__link">
-    <span class="md-ellipsis">
-      System Name:
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#zos-under-zvm" class="md-nav__link">
+  <a href="#target-audience" class="md-nav__link">
     <span class="md-ellipsis">
-      z/OS Under z/VM
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="z/OS Under z/VM">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#system-name_1" class="md-nav__link">
-    <span class="md-ellipsis">
-      System Name:
+      Target Audience
     </span>
   </a>
   
 </li>
-        
-      </ul>
-    </nav>
+      
+        <li class="md-nav__item">
+  <a href="#why-use-this-service" class="md-nav__link">
+    <span class="md-ellipsis">
+      Why Use This Service?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#benefits" class="md-nav__link">
+    <span class="md-ellipsis">
+      Benefits
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#service-provided" class="md-nav__link">
+    <span class="md-ellipsis">
+      Service Provided
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#deliverables" class="md-nav__link">
+    <span class="md-ellipsis">
+      Deliverables
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#resources" class="md-nav__link">
+    <span class="md-ellipsis">
+      Resources
+    </span>
+  </a>
   
 </li>
       
@@ -945,31 +1063,114 @@
   
 
 
-<h1 id="current-cpo-environments">Current CPO Environments</h1>
-<h2 id="natvie-zos">Natvie z/OS</h2>
-<h3 id="system-name">System Name:</h3>
+<h1 id="parallel-sysplex-health-check">Parallel Sysplex Health Check</h1>
+<h3 id="at-a-glance">At A Glance</h3>
+<p>In today’s digital world keeping your applications and services up and running continuously is critical to your organization’s success. Our IBM Z Health Check offering provides a proven way to get an in-depth analysis of your environment resulting in a set of practical recommendations to increase the resiliency of your IBM Z systems. IBM Subject Matter Experts can address a
+variety of IBM Z and subsystem components including z/OS, Parallel Sysplex, Communication Server, WLM, Db2 for z/OS, CICS,
+IMS, IBM z/OS Connect, MQ, and Security (Encryption and RACF, ACF/2, or TopSecret).</p>
+<h3 id="target-audience">Target Audience</h3>
+<p>IBM Z clients who need to increase the resiliency of their z/OS core systems to
+meet their organization and consumer availability and serviceability demands.</p>
+<h3 id="why-use-this-service">Why Use This Service?</h3>
+<p>Are you experiencing availability issues or need to increase your system’s resiliency to meet business or regulator requirements? Would you like to take advantage of industry best practices for running and managing an IBM Z environment?</p>
+<h3 id="benefits">Benefits</h3>
+<p>System Health Checks are built on a proven methodology of data collection, analysis and recommendations based on industry best practices and many client experiences. System Health Checks can be customized to focus on specific areas based on client needs</p>
+<h3 id="service-provided">Service Provided</h3>
+<ol>
+<li>
+<p>Perform an engagement kickoff meeting to validate health check focus and objectives</p>
+</li>
+<li>
+<p>Define data collection criteria required to perform health check analysis</p>
+</li>
+<li>
+<p>Analyze configuration and parameter files, SMF data, and logs collected from the client</p>
+</li>
+<li>
+<p>Understand business resiliency requirements and the IT objectives that support them</p>
+</li>
+<li>
+<p>Review the current architecture and identify gaps</p>
+</li>
+<li>
+<p>Review recovery processes, including DR capabilities</p>
+</li>
+<li>
+<p>Analyze software currency levels and maintenance strategies</p>
+</li>
+<li>
+<p>Conduct interview(s) with client SMEs to validate initial findings as required</p>
+</li>
+<li>
+<p>Document health check observations, findings and recommendations</p>
+</li>
+</ol>
+<h3 id="deliverables">Deliverables</h3>
 <ul>
-<li>Hostname/IP:</li>
-<li>Purpose:</li>
-<li>Owner:</li>
-<li>Owner Email:</li>
-<li>Z HW:</li>
-<li>Mem/CPs:</li>
-<li>Last Validated:</li>
-<li>How to request Access:</li>
+<li>A report summarizing health check observations, findings and recommendations.</li>
+<li>Guidance on best practices for selected health check review area(s).</li>
 </ul>
-<h2 id="zos-under-zvm">z/OS Under z/VM</h2>
-<h3 id="system-name_1">System Name:</h3>
-<ul>
-<li>Hostname/IP:</li>
-<li>Purpose:</li>
-<li>Owner:</li>
-<li>Owner Email:</li>
-<li>Z HW:</li>
-<li>Mem/CPs:</li>
-<li>Last Validated:</li>
-<li>How to request Access:</li>
-</ul>
+<h3 id="resources">Resources</h3>
+<table>
+<thead>
+<tr>
+<th>Parallel Sysplex Offering</th>
+<th>Link</th>
+<th>About</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>z Health Check Kickoff Presentation</td>
+<td><a href="/assets/ZHC_kickoff.pdf">Link</a></td>
+<td>Introduction and background to IBM Z Health Check</td>
+</tr>
+<tr>
+<td>zHC Data Collection Guide</td>
+<td><a href="/assets/zhc_data_collection_guide.pdf">Link</a></td>
+<td>Data Collection requirements for IBM Z Health Check engagement</td>
+</tr>
+<tr>
+<td>zHC Customer IT Objectives</td>
+<td><a href="/assets/zhc_it_objectives.pdf">Link</a></td>
+<td>Rubric for desired outcomes for customers' availability</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>Standalone Offerings</th>
+<th>Link</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>IBM CICS Standalone Health Check Guide</td>
+<td>[Link]</td>
+</tr>
+<tr>
+<td>IBM Db2 Standalone Health Check Guide</td>
+<td>[Link]</td>
+</tr>
+<tr>
+<td>IBM IMS Standalone Health Check Guide</td>
+<td>[Link]</td>
+</tr>
+<tr>
+<td>IBM MQ Standalone Health Check Guide</td>
+<td><a href="../assets/MQ Health Check Data Collection Guide.pdf">Link</a></td>
+</tr>
+<tr>
+<td>IBM WLM Standalone Health Check Guide</td>
+<td>[Link]</td>
+</tr>
+<tr>
+<td>IBM z/OS Standalone Health Check Guide</td>
+<td>[Link]</td>
+</tr>
+</tbody>
+</table>
 
 
 
@@ -1000,7 +1201,6 @@
   
     <div class="md-copyright__highlight">
       &copy; 2025 IBM
-
     </div>
   
   
@@ -1021,10 +1221,10 @@
     </div>
     
     
-    <script id="__config" type="application/json">{"base": "../../..", "features": [], "search": "../../../assets/javascripts/workers/search.6ce7567c.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    <script id="__config" type="application/json">{"base": "..", "features": [], "search": "../assets/javascripts/workers/search.6ce7567c.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
     
     
-      <script src="../../../assets/javascripts/bundle.83f73b43.min.js"></script>
+      <script src="../assets/javascripts/bundle.83f73b43.min.js"></script>
       
     
   </body>
