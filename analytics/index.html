@@ -12,28 +12,28 @@
         <meta name="author" content="IBM Z WSC">
       
       
-        <link rel="canonical" href="https://github.com/ibm-wsc/zossoftware/ibmcics/">
+        <link rel="canonical" href="https://github.com/ibm-wsc/analytics/">
       
       
-        <link rel="prev" href="../../workshops/">
+        <link rel="prev" href="../aiops/">
       
       
-        <link rel="next" href="../ibmdb2/">
+        <link rel="next" href="../capacityperf/">
       
       
-      <link rel="icon" href="../../assets/ibm_logo.png">
+      <link rel="icon" href="../assets/ibm_logo.png">
       <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.5.46">
     
     
       
-        <title>IBM CICS - IBM Washington Systems Center</title>
+        <title>Analytics - IBM Washington Systems Center</title>
       
     
     
-      <link rel="stylesheet" href="../../assets/stylesheets/main.6f8fc17f.min.css">
+      <link rel="stylesheet" href="../assets/stylesheets/main.6f8fc17f.min.css">
       
         
-        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
+        <link rel="stylesheet" href="../assets/stylesheets/palette.06af60db.min.css">
       
       
 
@@ -52,9 +52,9 @@
       
     
     
-      <link rel="stylesheet" href="../../stylesheets/extra.css">
+      <link rel="stylesheet" href="../stylesheets/extra.css">
     
-    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
@@ -80,7 +80,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#ibm-cics" class="md-skip">
+        <a href="#ai-and-analytics-on-ibm-z" class="md-skip">
           Skip to content
         </a>
       
@@ -96,9 +96,9 @@
 
 <header class="md-header md-header--shadow" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="../.." title="IBM Washington Systems Center" class="md-header__button md-logo" aria-label="IBM Washington Systems Center" data-md-component="logo">
+    <a href=".." title="IBM Washington Systems Center" class="md-header__button md-logo" aria-label="IBM Washington Systems Center" data-md-component="logo">
       
-  <img src="../../assets/ibm_logo.png" alt="logo">
+  <img src="../assets/ibm_logo.png" alt="logo">
 
     </a>
     <label class="md-header__button md-icon" for="__drawer">
@@ -115,7 +115,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              IBM CICS
+              Analytics
             
           </span>
         </div>
@@ -228,9 +228,9 @@
 
 <nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="../.." title="IBM Washington Systems Center" class="md-nav__button md-logo" aria-label="IBM Washington Systems Center" data-md-component="logo">
+    <a href=".." title="IBM Washington Systems Center" class="md-nav__button md-logo" aria-label="IBM Washington Systems Center" data-md-component="logo">
       
-  <img src="../../assets/ibm_logo.png" alt="logo">
+  <img src="../assets/ibm_logo.png" alt="logo">
 
     </a>
     IBM Washington Systems Center
@@ -257,7 +257,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../.." class="md-nav__link">
+      <a href=".." class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -277,7 +277,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../aiops/" class="md-nav__link">
+      <a href="../aiops/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -294,10 +294,19 @@
       
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../../analytics/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   <span class="md-ellipsis">
@@ -306,6 +315,7 @@
   
 
       </a>
+      
     </li>
   
 
@@ -317,7 +327,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../capacityperf/" class="md-nav__link">
+      <a href="../capacityperf/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -337,7 +347,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../hyperprotect/" class="md-nav__link">
+      <a href="../hyperprotect/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -357,7 +367,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../instana/" class="md-nav__link">
+      <a href="../instana/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -377,7 +387,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../zosmodernization/" class="md-nav__link">
+      <a href="../zosmodernization/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -432,7 +442,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../education/zxplore/" class="md-nav__link">
+      <a href="../education/zxplore/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -453,7 +463,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../education/msd/" class="md-nav__link">
+      <a href="../education/msd/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -481,7 +491,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../linuxONE/" class="md-nav__link">
+      <a href="../linuxONE/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -501,7 +511,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../healthcheck/" class="md-nav__link">
+      <a href="../healthcheck/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -521,7 +531,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../performance/" class="md-nav__link">
+      <a href="../performance/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -541,7 +551,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../rhansible/" class="md-nav__link">
+      <a href="../rhansible/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -561,7 +571,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../rhopenshift/" class="md-nav__link">
+      <a href="../rhopenshift/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -581,7 +591,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../wca4z/" class="md-nav__link">
+      <a href="../wca4z/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -601,7 +611,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../workshops/" class="md-nav__link">
+      <a href="../workshops/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -618,19 +628,17 @@
       
   
   
-    
   
   
-  
     
     
     
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_16" checked>
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_16" >
         
           
           <label class="md-nav__link" for="__nav_16" id="__nav_16_label" tabindex="0">
@@ -644,7 +652,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_16_label" aria-expanded="true">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_16_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_16">
             <span class="md-nav__icon md-icon"></span>
             z/OS Subsystems
@@ -655,19 +663,10 @@
                 
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../zossoftware/ibmcics/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -676,7 +675,6 @@
   
 
       </a>
-      
     </li>
   
 
@@ -689,7 +687,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../ibmdb2/" class="md-nav__link">
+      <a href="../zossoftware/ibmdb2/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -710,7 +708,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../ibmims/" class="md-nav__link">
+      <a href="../zossoftware/ibmims/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -731,7 +729,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../ibmmq/" class="md-nav__link">
+      <a href="../zossoftware/ibmmq/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -752,7 +750,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../ibmzos/" class="md-nav__link">
+      <a href="../zossoftware/ibmzos/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -773,7 +771,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../ibmcommserver/" class="md-nav__link">
+      <a href="../zossoftware/ibmcommserver/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -794,7 +792,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../ibmzosconnect/" class="md-nav__link">
+      <a href="../zossoftware/ibmzosconnect/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -851,34 +849,35 @@
   
 
 
-<h1 id="ibm-cics">IBM CICS</h1>
+<h1 id="ai-and-analytics-on-ibm-z">AI and Analytics on IBM Z</h1>
 <table>
 <thead>
 <tr>
 <th>Offering</th>
 <th>Link</th>
-<th>About</th>
 <th>Format</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>CICS Java Workshop</td>
-<td><a href="https://github.com/ibm-wsc/CICS-Wildfire-Workshops">https://github.com/ibm-wsc/CICS-Wildfire-Workshops</a></td>
-<td>Topics include CICS API for Java, OSGi JVM Servers, Liberty Profile JVM Servers, Java and Databases, Debugging and Tuning Hints</td>
-<td>Workshop</td>
+<td>Integrating IBM Z Data in a Data Fabric</td>
+<td><a href="https://techzone.ibm.com/collection/651712d08014ce00177074b4">Link</a></td>
+<td>Demo, Lab, or Instructor-led Workshop</td>
 </tr>
 <tr>
-<td>CICS Integration Workshop</td>
-<td><a href="https://github.com/ibm-wsc/CICS-Wildfire-Workshops">https://github.com/ibm-wsc/CICS-Wildfire-Workshops</a></td>
-<td>Topics include Overview of CICS Integration Options, Web Services in CICS, CICS, REST, and JSON, Using Java for Integration with CICS</td>
-<td>Workshop</td>
+<td>IBM Db2 AI for z/OS</td>
+<td><a href="https://techzone.ibm.com/collection/632c7e853162ac0018ad1b31">Link</a></td>
+<td>Demo, Lab, or Instructor-led Workshop</td>
 </tr>
 <tr>
-<td>Lab Content</td>
-<td><a href="https://github.com/ibm-wsc/CICS-Conference-Labs">https://github.com/ibm-wsc/CICS-Conference-Labs</a></td>
-<td>Hold content for labs offered at conferences such as SHARE and TechXchange</td>
-<td>Lab</td>
+<td>IBM Z16 AI Acceleration in Core Business Workloads</td>
+<td><a href="https://techzone.ibm.com/collection/65172492026692001775e3be">Link</a></td>
+<td>Demo, Lab, or Instructor-led Workshop</td>
+</tr>
+<tr>
+<td>Performing AI Queries with SQL data insights</td>
+<td><a href="https://techzone.ibm.com/collection/6327b2aba85a37001742d27d">Link</a></td>
+<td>Demo, Lab, or Instructor-led Workshop</td>
 </tr>
 </tbody>
 </table>
@@ -932,10 +931,10 @@
     </div>
     
     
-    <script id="__config" type="application/json">{"base": "../..", "features": [], "search": "../../assets/javascripts/workers/search.6ce7567c.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    <script id="__config" type="application/json">{"base": "..", "features": [], "search": "../assets/javascripts/workers/search.6ce7567c.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
     
     
-      <script src="../../assets/javascripts/bundle.83f73b43.min.js"></script>
+      <script src="../assets/javascripts/bundle.83f73b43.min.js"></script>
       
     
   </body>
