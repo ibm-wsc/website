@@ -18,7 +18,8 @@ If you are a client looking to upskill or reskill new hires and/or current emplo
 
 | Offering    | Link | Format |
 | -------- | ------- | ------- |
-| Getting Started Guide | [Link](assets\gettingstarted_zxplore.pdf) | Document |
-| IBM ZXplore Overview| [Link](assets\IBM Z Xplore Overview 2024.pdf) | Document |
+| Getting Started Guide | [Link](../assets/gettingstarted_zxplore.pdf) | Document |
+| IBM ZXplore Overview| [Link](../assets/zxplore_overview.pdf) | Document |
+| IBM ZXplore Platform | [Link](https://ibmzxplore.influitive.com/users/sign_in) | Platform |
 |
 

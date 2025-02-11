@@ -17,6 +17,5 @@ If you are a client looking to train new-hires or current employees in in-demand
 ### Resources
 | Offering    | Link | Format |
 | -------- | ------- | ------- |
-| Getting Started Guide | [Link](assets\gettingstarted_zxplore.pdf) | Document |
-| IBM ZXplore Overview| [Link](assets\IBM Z Xplore Overview 2024.pdf) | Document |
+| Mainframe Skills Depot One Pager | [Link](../assets/msd.pdf) | Document |
 |
