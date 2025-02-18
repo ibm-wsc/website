@@ -38,8 +38,8 @@ site_dir: 'site'
 remote_branch: 'gh-pages'
 remote_name: 'origin'
 theme:
-  logo: assets/ibm_logo.png
-  favicon: assets/ibm_logo.png
+  logo: assets/wsc-logo.png
+  favicon: assets/wsc-logo.png
   name: material
   font:
     text: IBM Plex Sans
