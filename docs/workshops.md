@@ -20,8 +20,6 @@ CICS Smart Seminar
 
 Cloud Native DevOps Powered by Red Hat OpenShift on IBM Z and LinuxONE Wildfire Workshop
 
-Confidential Computing on IBM Z and LinuxONE with Hyper Protect Virtual Servers 2.1.6
-
 Databases on IBM LinuxONE / Linux on IBM Z Hands-On Wildfire Workshop
 
 Db2 for z/OS Wildfire Workshop
@@ -43,8 +41,6 @@ MQ z/OS Performance and SMF Evaluation Wildfire Workshop
 Oracle® Databases on IBM LinuxONE Systems Wildfire Workshop
 
 Red Hat OpenShift on IBM Z and LinuxONE Wildfire Workshop
-
-Securing Critical Workloads with Hyper Protect Virtual Servers Wildfire Workshop
 
 Securing and Encrypting Network Traffic to z/OS Communications Server with Policy Agent
 
