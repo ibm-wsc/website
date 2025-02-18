@@ -4,18 +4,18 @@ nav:
   - AIOps: aiops.md
   - Analytics: analytics.md
   - Capacity and Performance: capacityperf.md
-  - Hyper Protect: hyperprotect.md
-  - Instana: instana.md
   - IBM z/OS Modernization: zosmodernization.md
   - IBM WSC Education:
     - IBM Z Explore: education/zxplore.md
     - Mainframe Skills Depot: education/msd.md
   - LinuxONE: linuxONE.md
+  - Observability on IBM Z: Observability.md
   - Parallel Sysplex Health Check: healthcheck.md
   - Performance: performance.md
-  - RedHat Ansible: rhansible.md
-  - RedHat OpenShift: rhopenshift.md
-  - Watson Code Assistant: wca4z.md
+  - Sustainability: sustainability.md
+  - Red Hat Ansible: rhansible.md
+  - Red Hat OpenShift: rhopenshift.md
+  - watsonx Code Assistant for Z: wca4z.md
   - Wildfire Workshops: workshops.md
   - z/OS Subsystems: 
     - IBM CICS: zossoftware/ibmcics.md
@@ -25,7 +25,7 @@ nav:
     - IBM z/OS: zossoftware/ibmzos.md
     - IBM z/OS Communications Server: zossoftware/ibmcommserver.md
     - IBM z/OS Connect: zossoftware/ibmzosconnect.md
-
+  - Archived Assets: archived.md
 # Project Information
 site_url: 'https://github.com/ibm-wsc/'
 site_description: IBM Washington Systems Center
