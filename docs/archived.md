@@ -1,6 +1,6 @@
 # Archived Offerings
 
-## The offerings listed below are available for reference, but are no longer actively maintained. Offerings may reference products or product versions that are not current.  
+The offerings listed below are available for reference, but are no longer actively maintained. Offerings may reference products or product versions that are not current.  
 
 | Offering | Assets | About | Format |
 | -------- | ------- | ------- | ------ |

@@ -9,7 +9,7 @@ nav:
     - IBM Z Explore: education/zxplore.md
     - Mainframe Skills Depot: education/msd.md
   - LinuxONE: linuxONE.md
-  - Observability on IBM Z: Observability.md
+  - Observability on IBM Z: observability.md
   - Parallel Sysplex Health Check: healthcheck.md
   - Performance: performance.md
   - Sustainability: sustainability.md
