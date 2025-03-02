@@ -3,10 +3,6 @@
 ### At A Glance
 The IBM Z Observability portfolio includes a broad range of products, including Instana, Turbonomic, and Cloud Pak for AIOps. These products contain metrics, logs, and tracing functionality to enable your team to productively analyze system usage. The IBM WSC offerings, listed below, aim to showcase how to leverage observability products.
 
-### Target Audience
-
-### Benefits
-
 ### Service Provided
 | Offering    | Link | Format |
 | -------- | ------- | ------- |
