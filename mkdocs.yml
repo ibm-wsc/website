@@ -5,7 +5,7 @@ nav:
   - Analytics: analytics.md
   - Capacity and Performance: capacityperf.md
   - IBM z/OS Modernization: zosmodernization.md
-  - IBM WSC Education:
+  - IBM WSC Z Skills:
     - IBM Z Explore: education/zxplore.md
     - Mainframe Skills Depot: education/msd.md
   - LinuxONE: linuxONE.md
